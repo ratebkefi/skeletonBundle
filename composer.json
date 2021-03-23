@@ -4,13 +4,12 @@
     "type": "symfony-bundle",
     "license": "MIT",
     "require": {
-        "php": "^7.4.*"
+        "php": ">=7.4"
     },
     "autoload": {
         "psr-4": {
             "Hexaglobe\\SkeletonBundle\\": ""
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
 
