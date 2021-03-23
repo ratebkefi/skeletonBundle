@@ -1,0 +1,14 @@
+{
+    "name": "hexaglobe/skeleton-bundle",
+    "description": "Reusable Symfony Bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\lib\\SkeletonBundle\\": ""
+        }
+    }
+}

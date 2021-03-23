@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services
+        https://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="skeleton_bundle.skeleton" class="App\lib\SkeletonBundle\Skeleton" public="true" >
+            <argument type="service"  id="skeleton.skeleton_provider"/>
+        </service>
+
+        <service id="skeleton_bundle.skeleton_provider" class="App\lib\SkeletonBundle\SkeletonProvider"></service>
+
+        <service id="skeleton.skeleton_provider" alias="skeleton_bundle.skeleton_provider"></service>
+
+        <service id="App\lib\SkeletonBundle\Skeleton" alias="skeleton_bundle.skeleton" public="false" ></service>
+    </services>
+</container>
