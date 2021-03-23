@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\lib\SkeletonBundle\DependencyInjection;
+namespace Hexaglobe\SkeletonBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

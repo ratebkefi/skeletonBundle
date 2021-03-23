@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\lib\SkeletonBundle\DependencyInjection;
+namespace Hexaglobe\SkeletonBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

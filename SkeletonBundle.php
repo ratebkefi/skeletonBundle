@@ -1,7 +1,7 @@
 <?php
-namespace App\lib\SkeletonBundle;
+namespace Hexaglobe\SkeletonBundle;
 
-use App\lib\SkeletonBundle\DependencyInjection\SkeletonExtension;
+use Hexaglobe\SkeletonBundle\DependencyInjection\SkeletonExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class SkeletonBundle extends Bundle

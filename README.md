@@ -26,7 +26,7 @@ skeleton_arguments:
 ```
 2- add this line to the config/bundles.php file :
 ```
-    App\lib\SkeletonBundle\SkeletonBundle::class => ['all' => true],
+    Hexaglobe\SkeletonBundle\SkeletonBundle::class => ['all' => true],
 
 ```
 
@@ -34,7 +34,7 @@ skeleton_arguments:
 ```
 <?php
 namespace App\Service;
-use App\lib\SkeletonBundle\SkeletonProviderInterface;
+use Hexaglobe\SkeletonBundle\SkeletonProviderInterface;
 
 class CustomWordProvider implements SkeletonProviderInterface
 {
@@ -51,18 +51,6 @@ class CustomWordProvider implements SkeletonProviderInterface
 4- add this line to the config/services.yaml file :
 
 ```
-  App\lib\SkeletonBundle\Skeleton: ~
+  Hexaglobe\SkeletonBundle\Skeleton: ~
 ```
 
-5- Then, to add the package my/package as a dependency, in your apps/my-app/composer.json file, you can use the following configuration:
-
-```
-      "repositories": [
-        {
-            "type": "path",
-            "url": "../src/lib/SkeletonBundle"
-        }
-    ],
-```
-	
-	

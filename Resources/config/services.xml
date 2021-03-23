@@ -5,14 +5,14 @@
         https://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="skeleton_bundle.skeleton" class="App\lib\SkeletonBundle\Skeleton" public="true" >
+        <service id="skeleton_bundle.skeleton" class="Hexaglobe\SkeletonBundle\Skeleton" public="true" >
             <argument type="service"  id="skeleton.skeleton_provider"/>
         </service>
 
-        <service id="skeleton_bundle.skeleton_provider" class="App\lib\SkeletonBundle\SkeletonProvider"></service>
+        <service id="skeleton_bundle.skeleton_provider" class="Hexaglobe\SkeletonBundle\SkeletonProvider"></service>
 
         <service id="skeleton.skeleton_provider" alias="skeleton_bundle.skeleton_provider"></service>
 
-        <service id="App\lib\SkeletonBundle\Skeleton" alias="skeleton_bundle.skeleton" public="false" ></service>
+        <service id="Hexaglobe\SkeletonBundle\Skeleton" alias="skeleton_bundle.skeleton" public="false" ></service>
     </services>
 </container>

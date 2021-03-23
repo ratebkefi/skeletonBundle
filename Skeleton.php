@@ -1,5 +1,5 @@
 <?php
-namespace App\lib\SkeletonBundle;
+namespace Hexaglobe\SkeletonBundle;
 
 class Skeleton
 {
