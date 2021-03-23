@@ -6,11 +6,11 @@
     "require": {
         "php": "^7.2.5"
     },
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Hexaglobe\\SkeletonBundle\\": ""
         }
     }
 }
+
 
