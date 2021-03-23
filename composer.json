@@ -4,21 +4,12 @@
     "type": "symfony-bundle",
     "license": "MIT",
     "require": {
-        "php": "^7.4@dev",
-        "symfony/config": "5.2.*@dev",
-        "symfony/dependency-injection": "5.2.*@dev",
-        "symfony/http-kernel": "5.2.*@dev"
-    },
-    "require-dev": {
-        "symfony/framework-bundle": "5.2.*@dev",
-        "symfony/phpunit-bridge": "5.2.*@dev",
-        "symfony/browser-kit": "5.2.*@dev"
+        "php": ">=7.4"
     },
     "autoload": {
         "psr-4": {
             "Hexaglobe\\SkeletonBundle\\": ""
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
 
